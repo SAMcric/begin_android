@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/first_android_project"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="120dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#1E90FF"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is the second attempt but going great !!"
+        android:layout_marginLeft="80dp"
+        android:padding="10dp"
+        android:textColor="#B22222"/>
+
+<ImageView
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_marginLeft="100dp"
+    android:src="@drawable/ms"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter ur Name"
+        android:layout_margin="20dp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Click Here"
+        android:background="#008080"
+        android:textColor="#F0FFF0"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+</LinearLayout>

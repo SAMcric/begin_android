@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ms"
+        android:layout_margin="30dp"/>
+
+    <TextView
+        android:id="@+id/txt01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MSD"
+        android:layout_margin="20sp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#87CEFA"
+        android:layout_toRightOf="@+id/img1"/>
+    <TextView
+        android:id="@+id/txt02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All time Great"
+        android:layout_margin="5sp"
+        android:textSize="20sp"
+        android:textColor="#FFA07A"
+        android:layout_toRightOf="@+id/img1"
+        android:layout_below="@+id/txt01"/>
+    <TextView
+        android:id="@+id/txt03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="07"
+        android:textSize="20sp"
+        android:layout_margin="5sp"
+        android:textColor="#F4A460"
+        android:layout_toRightOf="@+id/img1"
+        android:layout_below="@+id/txt02"/>
+
+</RelativeLayout>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img001"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@drawable/bs"
+            android:layout_margin="30dp"/>
+
+        <TextView
+            android:id="@+id/txt001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MSD"
+            android:layout_margin="20sp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#87CEFA"
+            android:layout_toRightOf="@+id/img001"/>
+        <TextView
+            android:id="@+id/txt002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All time Great"
+            android:layout_margin="5sp"
+            android:textSize="20sp"
+            android:textColor="#FFA07A"
+            android:layout_toRightOf="@+id/img001"
+            android:layout_below="@+id/txt001"/>
+        <TextView
+            android:id="@+id/txt003"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="07"
+            android:textSize="20sp"
+            android:layout_margin="5sp"
+            android:textColor="#F4A460"
+            android:layout_toRightOf="@+id/img001"
+            android:layout_below="@+id/txt002"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img0001"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@drawable/cs"
+            android:layout_margin="30dp"/>
+
+        <TextView
+            android:id="@+id/txt0001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MSD"
+            android:layout_margin="20sp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#87CEFA"
+            android:layout_toRightOf="@+id/img0001"/>
+        <TextView
+            android:id="@+id/txt0002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All time Great"
+            android:layout_margin="5sp"
+            android:textSize="20sp"
+            android:textColor="#FFA07A"
+            android:layout_toRightOf="@+id/img0001"
+            android:layout_below="@+id/txt0001"/>
+        <TextView
+            android:id="@+id/txt0003"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="07"
+            android:textSize="20sp"
+            android:layout_margin="5sp"
+            android:textColor="#F4A460"
+            android:layout_toRightOf="@+id/img0001"
+            android:layout_below="@+id/txt0002"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img00001"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@drawable/cwc"
+            android:layout_margin="30dp"/>
+
+        <TextView
+            android:id="@+id/txt00001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MSD"
+            android:layout_margin="20sp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#87CEFA"
+            android:layout_toRightOf="@+id/img00001"/>
+        <TextView
+            android:id="@+id/txt00002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All time Great"
+            android:layout_margin="5sp"
+            android:textSize="20sp"
+            android:textColor="#FFA07A"
+            android:layout_toRightOf="@+id/img00001"
+            android:layout_below="@+id/txt00001"/>
+        <TextView
+            android:id="@+id/txt00003"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="07"
+            android:textSize="20sp"
+            android:layout_margin="5sp"
+            android:textColor="#F4A460"
+            android:layout_toRightOf="@+id/img00001"
+            android:layout_below="@+id/txt00002"/>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img000001"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@drawable/eng"
+            android:layout_margin="30dp"/>
+
+        <TextView
+            android:id="@+id/txt000001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MSD"
+            android:layout_margin="20sp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#87CEFA"
+            android:layout_toRightOf="@+id/img000001"/>
+        <TextView
+            android:id="@+id/txt000002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All time Great"
+            android:layout_margin="5sp"
+            android:textSize="20sp"
+            android:textColor="#FFA07A"
+            android:layout_toRightOf="@+id/img000001"
+            android:layout_below="@+id/txt000001"/>
+        <TextView
+            android:id="@+id/txt000003"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="07"
+            android:textSize="20sp"
+            android:layout_margin="5sp"
+            android:textColor="#F4A460"
+            android:layout_toRightOf="@+id/img000001"
+            android:layout_below="@+id/txt000002"/>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img0000001"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ms"
+            android:layout_margin="30dp"/>
+
+        <TextView
+            android:id="@+id/txt0000001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MSD"
+            android:layout_margin="20sp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#87CEFA"
+            android:layout_toRightOf="@+id/img0000001"/>
+        <TextView
+            android:id="@+id/txt0000002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All time Great"
+            android:layout_margin="5sp"
+            android:textSize="20sp"
+            android:textColor="#FFA07A"
+            android:layout_toRightOf="@+id/img0000001"
+            android:layout_below="@+id/txt0000001"/>
+        <TextView
+            android:id="@+id/txt0000003"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="07"
+            android:textSize="20sp"
+            android:layout_margin="5sp"
+            android:textColor="#F4A460"
+            android:layout_toRightOf="@+id/img0000001"
+            android:layout_below="@+id/txt0000002"/>
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
+
+</ScrollView>
